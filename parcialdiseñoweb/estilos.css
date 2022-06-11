@@ -1,0 +1,137 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0;
+padding: 0;
+
+background-size:cover ;
+background-color: rgb(245, 214, 147);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(189, 158, 158);
+}
+header{
+    background-color:#ffffff;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+   
+
+    top: 0;
+
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding: 10px;
+}
+nav a:hover{
+    color: rgb(13, 14, 14);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 26px;
+    grid-row-gap: 0px;
+    }
+    .parent p{
+        display: flex;
+        right: 200%;
+    }
+    .parent div{
+        right: auto;
+        left: auto;
+        
+    }
+  div h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    color: rgb(255, 102, 0);
+    background-color: aliceblue;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+
+}
+   div h2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin-right: 10%;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 250px;
+
+}
+  div h3{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 236, 1);
+    margin-right: 15%;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 500px;
+    
+}
+aside{
+    width: 80%; /*ancho*/
+    height: 1px; /*altura*/
+    float: right;
+    background-color: rgb(245, 214, 147);
+
+    /*margenes izp y dere*/
+    margin-right: 1%;
+  
+    margin-top: 1px;  /* le da un espacio parque no este junto*/
+border-radius:0px; /*bordes redodiados*/
+border: 0px dashed; /*aplicando grosor y estilo al borde*/
+
+}
+section{
+    width: 80%; /*ancho*/
+    height: 0px; /*altura*/
+    float: right;
+    background-color: rgb(253, 253, 253);
+color: rgb(0, 0, 0);
+    /*margenes izp y dere*/
+    margin-right: 1%;
+  
+    margin-top: 0px;  /* le da un espacio parque no este junto*/
+border-radius:0px; /*bordes redodiados*/
+border: 0px dashed; /*aplicando grosor y estilo al borde*/
+
+}
+nav{
+    width: 80%; /*ancho*/
+    height: 1px; /*altura*/
+    float: left;
+    background-color: rgb(245, 214, 147);
+
+    /*margenes izp y dere*/
+    margin-right: 1%;
+  
+    margin-top: 1px;  /* le da un espacio parque no este junto*/
+border-radius:0px; /*bordes redodiados*/
+border: 0px dashed; /*aplicando grosor y estilo al borde*/
+
+}
+footer h1{
+    color: #000000;
+    background-color: rgb(245, 211, 139);
+
+}
+button{
+    float: right;
+}
